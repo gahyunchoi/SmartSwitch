@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="backColor">#2000</color>
+    <color name="intervalColor1">#ffffff</color>
+    <color name="intervalColor2">#eef8ff</color>
+    <color name="grid_title_color">#3DADC3</color>
+    <color name="group_selected_color">#fff8f9ff</color>
+    <color name="grid_selected_row">#ffa4c39d</color>
+    <color name="white">#ffffffff</color>
+    <color name="trip_detail">#CCFFECD8</color>
+    <color name="inner_bg">#87fffdb5</color>
+    <color name="text_red">#ff0000</color>
+    <color name="textview_bg">#ff1ba384</color>
+    <color name="light_blue">#effafe</color>
+    <color name="text_light">#AEAEAE</color>
+    <color name="login_btn_bg_normal">#008ae1</color>
+    <color name="login_btn_bg_focus">#0065a5</color>
+    <color name="colorPrimary">#50d2c2</color>
+    <color name="colorPrimaryDark">#1d9e8e</color>
+    <color name="colorAccent">#07435c</color>
+    <color name="normalText">#a8a8aa</color>
+    <color name="linkedText">#1d1d26</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="linkColor">#0b76a4</color>
+
+    <color name="grey_300">#E0E0E0</color>
+    <color name="color_white">#fefefe</color>
+
+    <color name="window_background">@color/white</color>
+    <color name="circular_progress_default_progress">#bada55</color>
+    <color name="circular_progress_default_background">#e6e6e6</color>
+    <color name="circular_progress_default_title">@color/black</color>
+    <color name="circular_progress_default_subtitle">#D1D1D1</color>
+
+    <color name="text_gray">#6D6D6D</color>
+
+    <color name="break_required_bar">#4555A5</color>
+    <color name="aval_driving">#26A69A</color>
+    <color name="shift_hour_left">#C87F01</color>
+    <color name="cycle_hour_left">#5E5E5E</color>
+
+    <color name="aval_warning">#E9267A</color>
+    <color name="aval_warning_bg">#D11B5B</color>
+
+
+    <color name="text_current">#cd992f</color>
+    <color name="status_default">#71bebd</color>
+    <color name="status_pressed">#e6e6e6</color>
+    <color name="violation_border">#e99b32</color>
+    <color name="off_border">#949599</color>
+    <color name="sb_border">#527dbf</color>
+    <color name="drv_border">#6db6a1</color>
+    <color name="on_border">#b68134</color>
+    <color name="chart_log_checked">#ddeafd</color>
+    <color name="edit_label_bg">#5a5a5a</color>
+    <color name="drag_tool_bg">#6d6d6d</color>
+    <color name="time_marker_bg">#6d6d6d</color>
+    <color name="text_color">#55a2dd</color>
+
+    <color name="cardview_bg">#FFFFFF</color>
+    <color name="background_color">#E7E7E7</color>
+
+    <color name="dark_gray">#B4B4B4</color>
+    <color name="dvir_border">#d0d0ce</color>
+
+    <color name="mehroon">#D20C54</color>
+    <color name="light_green">#1FA296</color>
+
+    <color name="on_duty_color">#FF872B</color>
+    <color name="off_duty_color">#212121</color>
+    <color name="driving_color">#4CAF50</color>
+    <color name="sleep_berth_color">#607D8B</color>
+
+    <color name="rods_tr_bg">#F2F2F2</color>
+    <color name="release_vehicle_color">#D12769</color>
+    <color name="dvir_btn_bg">#F29100</color>
+
+    <color name="main_d">#E52666</color>
+    <color name="co_d">#A7A9AC</color>
+    <color name="violation_outer_circle">#E9267A</color>
+    <color name="violation_inner_circle">#D11B5B</color>
+
+    <color name="selected_driver_bg">#D1D2D4</color>
+    <color name="main_d_check">#EA1B64</color>
+    <color name="co_d_check">#6C6D70</color>
+
+    <!-- chat colors-->
+
+    <color name="color_grey">#d3d3d3</color>
+
+    <color name="background_chat_color">#f5f6f5</color>
+
+    <color name="divider_color">#e0e0e0</color>
+    <color name="selected_list_item_color">#527dbf</color>
+
+    <color name="random_color_1">#ff9500</color>
+    <color name="random_color_2">#007aff</color>
+    <color name="random_color_3">#ff0091</color>
+    <color name="random_color_4">#4cd964</color>
+    <color name="random_color_5">#c3c1f2</color>
+    <color name="random_color_6">#a727a5</color>
+    <color name="random_color_7">#77a6d0</color>
+    <color name="random_color_8">#d0021b</color>
+    <color name="random_color_9">#166642</color>
+    <color name="random_color_10">#bdbdbd</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="action_btn_active">#0BBBD3</color>
+    <color name="action_btn_inactive">#CBCBCB</color>
+    <color name="color_night_mode">#C0C0C0</color>
+    <color name="color_light_gray">#99999A</color>
+    <color name="color_teal">#006c67</color>
+    <color name="color_night_bg">#2b2a3c</color>
+    <color name="color_night_orange">#FFAA61</color>
+    <color name="color_night_text_bg">#1C1B1C</color>
+</resources>

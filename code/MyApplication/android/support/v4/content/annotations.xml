@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.support.v4.content.ContextCompat android.graphics.drawable.Drawable getDrawable(android.content.Context, int)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

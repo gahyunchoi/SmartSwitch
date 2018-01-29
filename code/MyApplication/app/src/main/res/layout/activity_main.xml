@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_layout">
+
+
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MScrollView"
+    tools:context="com.example.user.myapplication.activities.OnOffActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <!--Custom Toolbar-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인체감지 스위치 온/오프 사용여부"
+            android:textSize="@dimen/dp_20"
+            />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_teal"
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LinearLayoutMotion"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dp_20">
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스위치 온/오프"
+            android:textSize="@dimen/dp_20"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_teal"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/switchlayout"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/login_button_style"
+            android:layout_gravity="right"
+
+            android:background="@drawable/ic_add_teal"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="센서 값"
+            android:textSize="@dimen/dp_20"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:text="Sensor Value"
+            android:background="@color/color_teal"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="242dp"
+            android:layout_alignParentBottom="true">
+            <de.codecrafters.tableview.TableView
+                xmlns:table="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tableView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                table:tableView_columnCount="6" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

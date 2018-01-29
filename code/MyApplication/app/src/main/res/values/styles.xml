@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="login_input_style">
+        <item name="android:paddingBottom">1dip</item>
+        <item name="android:paddingTop">1dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/login_input_bg</item>
+    </style>
+
+    <style name="login_et_style">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:textColor">@color/color_teal</item>
+        <item name="android:textColorHint">#996699cc</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="login_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_8</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_25</item>
+        <item name="android:background">@drawable/login_btn_bg</item>
+
+    </style>
+
+    <style name="recap_button_style">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/login_btn_bg</item>
+
+    </style>
+
+    <style name="MyCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorControlNormal">@color/color_light_gray</item> <!-- border color -->
+        <item name="colorControlActivated">@color/color_light_gray</item> <!-- fill color -->
+        <item name="colorControlHighlight">@color/color_light_gray</item> <!-- animation color -->
+
+    </style>
+
+</resources>
